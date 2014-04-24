@@ -1,0 +1,505 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'plugman' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose url raw plugman/latest
+5 verbose url resolving [ 'https://registry.npmjs.org/', './plugman/latest' ]
+6 verbose url resolved https://registry.npmjs.org/plugman/latest
+7 info trying registry request attempt 1 at 16:07:40
+8 http GET https://registry.npmjs.org/plugman/latest
+9 verbose url raw plugman/latest
+10 verbose url resolving [ 'https://registry.npmjs.org/', './plugman/latest' ]
+11 verbose url resolved https://registry.npmjs.org/plugman/latest
+12 info trying registry request attempt 1 at 16:07:40
+13 http GET https://registry.npmjs.org/plugman/latest
+14 http 200 https://registry.npmjs.org/plugman/latest
+15 silly registry.get cb [ 200,
+15 silly registry.get   { date: 'Thu, 24 Apr 2014 20:07:35 GMT',
+15 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+15 silly registry.get     etag: '"7K20YHE2ND0N6IV9U9A34VHVY"',
+15 silly registry.get     'content-type': 'application/json',
+15 silly registry.get     'cache-control': 'max-age=1',
+15 silly registry.get     'content-length': '1848',
+15 silly registry.get     'accept-ranges': 'bytes',
+15 silly registry.get     via: '1.1 varnish',
+15 silly registry.get     age: '172',
+15 silly registry.get     'x-served-by': 'cache-v42-ASH',
+15 silly registry.get     'x-cache': 'HIT',
+15 silly registry.get     'x-cache-hits': '1',
+15 silly registry.get     'x-timer': 'S1398370055.401385546,VS0,VE82',
+15 silly registry.get     vary: 'Accept',
+15 silly registry.get     'keep-alive': 'timeout=10, max=50',
+15 silly registry.get     connection: 'Keep-Alive' } ]
+16 http 200 https://registry.npmjs.org/plugman/latest
+17 silly registry.get cb [ 200,
+17 silly registry.get   { date: 'Thu, 24 Apr 2014 20:07:35 GMT',
+17 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+17 silly registry.get     etag: '"7K20YHE2ND0N6IV9U9A34VHVY"',
+17 silly registry.get     'content-type': 'application/json',
+17 silly registry.get     'cache-control': 'max-age=1',
+17 silly registry.get     'content-length': '1848',
+17 silly registry.get     'accept-ranges': 'bytes',
+17 silly registry.get     via: '1.1 varnish',
+17 silly registry.get     age: '172',
+17 silly registry.get     'x-served-by': 'cache-v37-ASH',
+17 silly registry.get     'x-cache': 'HIT',
+17 silly registry.get     'x-cache-hits': '2',
+17 silly registry.get     'x-timer': 'S1398370055.484833479,VS0,VE0',
+17 silly registry.get     vary: 'Accept',
+17 silly registry.get     'keep-alive': 'timeout=10, max=50',
+17 silly registry.get     connection: 'Keep-Alive' } ]
+18 verbose cache add [ 'plugman', '0.20.2' ]
+19 verbose cache add name="plugman" spec="0.20.2" args=["plugman","0.20.2"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '0.20.2',
+20 verbose parsed url   path: '0.20.2',
+20 verbose parsed url   href: '0.20.2' }
+21 verbose addNamed [ 'plugman', '0.20.2' ]
+22 verbose addNamed [ '0.20.2', '0.20.2' ]
+23 silly lockFile ebfceccf-plugman-0-20-2 plugman@0.20.2
+24 verbose lock plugman@0.20.2 /Users/Calli/.npm/ebfceccf-plugman-0-20-2.lock
+25 verbose cache add [ 'plugman', '0.19.0' ]
+26 verbose cache add name="plugman" spec="0.19.0" args=["plugman","0.19.0"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '0.19.0',
+27 verbose parsed url   path: '0.19.0',
+27 verbose parsed url   href: '0.19.0' }
+28 verbose addNamed [ 'plugman', '0.19.0' ]
+29 verbose addNamed [ '0.19.0', '0.19.0' ]
+30 silly lockFile 9ef7a65e-plugman-0-19-0 plugman@0.19.0
+31 verbose lock plugman@0.19.0 /Users/Calli/.npm/9ef7a65e-plugman-0-19-0.lock
+32 verbose url raw plugman/0.20.2
+33 verbose url resolving [ 'https://registry.npmjs.org/', './plugman/0.20.2' ]
+34 verbose url resolved https://registry.npmjs.org/plugman/0.20.2
+35 info trying registry request attempt 1 at 16:07:40
+36 verbose etag "7K20YHE2ND0N6IV9U9A34VHVY"
+37 http GET https://registry.npmjs.org/plugman/0.20.2
+38 verbose url raw plugman/0.19.0
+39 verbose url resolving [ 'https://registry.npmjs.org/', './plugman/0.19.0' ]
+40 verbose url resolved https://registry.npmjs.org/plugman/0.19.0
+41 info trying registry request attempt 1 at 16:07:40
+42 verbose etag "31WHPGWOYGDG8ZAIYPGLKEMNJ"
+43 http GET https://registry.npmjs.org/plugman/0.19.0
+44 http 200 https://registry.npmjs.org/plugman/0.19.0
+45 silly registry.get cb [ 200,
+45 silly registry.get   { date: 'Thu, 24 Apr 2014 20:07:35 GMT',
+45 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+45 silly registry.get     etag: '"7K20YHE2ND0N6IV9U9A34VHVY"',
+45 silly registry.get     'content-type': 'application/json',
+45 silly registry.get     'cache-control': 'max-age=1',
+45 silly registry.get     'content-length': '1818',
+45 silly registry.get     'accept-ranges': 'bytes',
+45 silly registry.get     via: '1.1 varnish',
+45 silly registry.get     age: '0',
+45 silly registry.get     'x-served-by': 'cache-v41-ASH',
+45 silly registry.get     'x-cache': 'MISS',
+45 silly registry.get     'x-cache-hits': '0',
+45 silly registry.get     'x-timer': 'S1398370055.552071095,VS0,VE74',
+45 silly registry.get     vary: 'Accept',
+45 silly registry.get     'keep-alive': 'timeout=10, max=50',
+45 silly registry.get     connection: 'Keep-Alive' } ]
+46 silly lockFile e1004690-s-org-plugman-plugman-0-19-0-tgz https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz
+47 verbose lock https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz /Users/Calli/.npm/e1004690-s-org-plugman-plugman-0-19-0-tgz.lock
+48 verbose addRemoteTarball [ 'https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz',
+48 verbose addRemoteTarball   '8215786922a38eb43ed80aa3493758e840dc9d33' ]
+49 info retry fetch attempt 1 at 16:07:40
+50 verbose fetch to= /var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/tmp.tgz
+51 http GET https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz
+52 http 304 https://registry.npmjs.org/plugman/0.20.2
+53 silly registry.get cb [ 304,
+53 silly registry.get   { date: 'Thu, 24 Apr 2014 20:07:35 GMT',
+53 silly registry.get     server: 'Apache',
+53 silly registry.get     via: '1.1 varnish',
+53 silly registry.get     'last-modified': 'Thu, 24 Apr 2014 20:07:35 GMT',
+53 silly registry.get     'cache-control': 'max-age=1',
+53 silly registry.get     etag: '"7K20YHE2ND0N6IV9U9A34VHVY"',
+53 silly registry.get     'x-served-by': 'cache-v43-ASH',
+53 silly registry.get     'x-cache': 'MISS',
+53 silly registry.get     'x-cache-hits': '0',
+53 silly registry.get     'x-timer': 'S1398370055.551609993,VS0,VE113',
+53 silly registry.get     vary: 'Accept',
+53 silly registry.get     'content-length': '0',
+53 silly registry.get     'keep-alive': 'timeout=10, max=50',
+53 silly registry.get     connection: 'Keep-Alive' } ]
+54 verbose etag plugman/0.20.2 from cache
+55 silly lockFile ebfceccf-plugman-0-20-2 plugman@0.20.2
+56 silly lockFile ebfceccf-plugman-0-20-2 plugman@0.20.2
+57 http 200 https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz
+58 verbose tar unpack /var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/tmp.tgz
+59 silly lockFile c625f587-60724-0-3152758860960603-package tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package
+60 verbose lock tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package /Users/Calli/.npm/c625f587-60724-0-3152758860960603-package.lock
+61 silly lockFile 87c28007-60724-0-3152758860960603-tmp-tgz tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/tmp.tgz
+62 verbose lock tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/tmp.tgz /Users/Calli/.npm/87c28007-60724-0-3152758860960603-tmp-tgz.lock
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm extractEntry .npmignore
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm extractEntry LICENSE
+68 silly gunzTarPerm extractEntry plugman.js
+69 silly gunzTarPerm extractEntry main.js
+70 silly gunzTarPerm extractEntry config.js
+71 silly gunzTarPerm extractEntry doc/help.txt
+72 silly gunzTarPerm extractEntry .reviewboardrc
+73 silly gunzTarPerm extractEntry RELEASENOTES.md
+74 silly gunzTarPerm extractEntry src/adduser.js
+75 silly gunzTarPerm extractEntry src/help.js
+76 silly gunzTarPerm extractEntry src/info.js
+77 silly gunzTarPerm extractEntry src/install.js
+78 silly gunzTarPerm extractEntry src/owner.js
+79 silly gunzTarPerm extractEntry src/fetch.js
+80 silly gunzTarPerm extractEntry src/platforms.js
+81 silly gunzTarPerm extractEntry src/prepare.js
+82 silly gunzTarPerm extractEntry src/publish.js
+83 silly gunzTarPerm extractEntry src/search.js
+84 silly gunzTarPerm extractEntry src/uninstall.js
+85 silly gunzTarPerm extractEntry src/events.js
+86 silly gunzTarPerm extractEntry src/unpublish.js
+87 silly gunzTarPerm extractEntry src/config.js
+88 silly gunzTarPerm extractEntry src/registry/manifest.js
+89 silly gunzTarPerm extractEntry src/registry/registry.js
+90 silly gunzTarPerm extractEntry src/registry/whitelist.js
+91 silly gunzTarPerm extractEntry src/util/action-stack.js
+92 silly gunzTarPerm extractEntry src/util/csproj.js
+93 silly gunzTarPerm extractEntry src/util/default-engines.js
+94 silly gunzTarPerm extractEntry src/util/dependencies.js
+95 silly gunzTarPerm extractEntry src/util/config-changes.js
+96 silly gunzTarPerm extractEntry src/util/plist-helpers.js
+97 silly gunzTarPerm extractEntry src/util/plugins.js
+98 silly gunzTarPerm extractEntry src/util/search-and-replace.js
+99 silly gunzTarPerm extractEntry src/util/w8jsproj.js
+100 silly gunzTarPerm extractEntry src/util/xml-helpers.js
+101 silly gunzTarPerm extractEntry src/util/metadata.js
+102 silly gunzTarPerm extractEntry src/platforms/amazon-fireos.js
+103 silly gunzTarPerm extractEntry src/platforms/android.js
+104 silly gunzTarPerm extractEntry src/platforms/blackberry10.js
+105 silly gunzTarPerm extractEntry src/platforms/common.js
+106 silly gunzTarPerm extractEntry src/platforms/firefoxos.js
+107 silly gunzTarPerm extractEntry src/platforms/ios.js
+108 silly gunzTarPerm extractEntry src/platforms/ubuntu.js
+109 silly gunzTarPerm extractEntry src/platforms/windows8.js
+110 silly gunzTarPerm extractEntry src/platforms/wp7.js
+111 silly gunzTarPerm extractEntry src/platforms/wp8.js
+112 silly lockFile c625f587-60724-0-3152758860960603-package tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package
+113 silly lockFile c625f587-60724-0-3152758860960603-package tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package
+114 silly lockFile 87c28007-60724-0-3152758860960603-tmp-tgz tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/tmp.tgz
+115 silly lockFile 87c28007-60724-0-3152758860960603-tmp-tgz tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/tmp.tgz
+116 verbose tar pack [ '/Users/Calli/.npm/plugman/0.19.0/package.tgz',
+116 verbose tar pack   '/var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package' ]
+117 verbose tarball /Users/Calli/.npm/plugman/0.19.0/package.tgz
+118 verbose folder /var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package
+119 silly lockFile c625f587-60724-0-3152758860960603-package tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package
+120 verbose lock tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package /Users/Calli/.npm/c625f587-60724-0-3152758860960603-package.lock
+121 silly lockFile 74d2542a-i-npm-plugman-0-19-0-package-tgz tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz
+122 verbose lock tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz /Users/Calli/.npm/74d2542a-i-npm-plugman-0-19-0-package-tgz.lock
+123 silly lockFile c625f587-60724-0-3152758860960603-package tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package
+124 silly lockFile c625f587-60724-0-3152758860960603-package tar:///var/folders/2g/w2y984dx6bq1_1jj1p8lv63c0000gn/T/npm-24679-T9231pwX/1398370060724-0.3152758860960603/package
+125 silly lockFile 74d2542a-i-npm-plugman-0-19-0-package-tgz tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz
+126 silly lockFile 74d2542a-i-npm-plugman-0-19-0-package-tgz tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz
+127 silly lockFile bed584e6-Calli-npm-plugman-0-19-0-package /Users/Calli/.npm/plugman/0.19.0/package
+128 verbose lock /Users/Calli/.npm/plugman/0.19.0/package /Users/Calli/.npm/bed584e6-Calli-npm-plugman-0-19-0-package.lock
+129 silly lockFile bed584e6-Calli-npm-plugman-0-19-0-package /Users/Calli/.npm/plugman/0.19.0/package
+130 silly lockFile bed584e6-Calli-npm-plugman-0-19-0-package /Users/Calli/.npm/plugman/0.19.0/package
+131 verbose tar unpack /Users/Calli/.npm/plugman/0.19.0/package.tgz
+132 silly lockFile 42ee3230-Calli-npm-plugman-0-19-0-package tar:///Users/Calli/.npm/plugman/0.19.0/package
+133 verbose lock tar:///Users/Calli/.npm/plugman/0.19.0/package /Users/Calli/.npm/42ee3230-Calli-npm-plugman-0-19-0-package.lock
+134 silly lockFile 74d2542a-i-npm-plugman-0-19-0-package-tgz tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz
+135 verbose lock tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz /Users/Calli/.npm/74d2542a-i-npm-plugman-0-19-0-package-tgz.lock
+136 silly gunzTarPerm modes [ '755', '644' ]
+137 silly gunzTarPerm extractEntry package.json
+138 silly gunzTarPerm extractEntry .npmignore
+139 silly gunzTarPerm extractEntry README.md
+140 silly gunzTarPerm extractEntry LICENSE
+141 silly gunzTarPerm extractEntry plugman.js
+142 silly gunzTarPerm extractEntry main.js
+143 silly gunzTarPerm extractEntry config.js
+144 silly gunzTarPerm extractEntry doc/help.txt
+145 silly gunzTarPerm extractEntry .reviewboardrc
+146 silly gunzTarPerm extractEntry RELEASENOTES.md
+147 silly gunzTarPerm extractEntry src/adduser.js
+148 silly gunzTarPerm extractEntry src/help.js
+149 silly gunzTarPerm extractEntry src/info.js
+150 silly gunzTarPerm extractEntry src/install.js
+151 silly gunzTarPerm extractEntry src/owner.js
+152 silly gunzTarPerm extractEntry src/fetch.js
+153 silly gunzTarPerm extractEntry src/platforms.js
+154 silly gunzTarPerm extractEntry src/prepare.js
+155 silly gunzTarPerm extractEntry src/publish.js
+156 silly gunzTarPerm extractEntry src/search.js
+157 silly gunzTarPerm extractEntry src/uninstall.js
+158 silly gunzTarPerm extractEntry src/events.js
+159 silly gunzTarPerm extractEntry src/unpublish.js
+160 silly gunzTarPerm extractEntry src/config.js
+161 silly gunzTarPerm extractEntry src/registry/manifest.js
+162 silly gunzTarPerm extractEntry src/registry/registry.js
+163 silly gunzTarPerm extractEntry src/registry/whitelist.js
+164 silly gunzTarPerm extractEntry src/util/action-stack.js
+165 silly gunzTarPerm extractEntry src/util/csproj.js
+166 silly gunzTarPerm extractEntry src/util/default-engines.js
+167 silly gunzTarPerm extractEntry src/util/dependencies.js
+168 silly gunzTarPerm extractEntry src/util/config-changes.js
+169 silly gunzTarPerm extractEntry src/util/plist-helpers.js
+170 silly gunzTarPerm extractEntry src/util/plugins.js
+171 silly gunzTarPerm extractEntry src/util/search-and-replace.js
+172 silly gunzTarPerm extractEntry src/util/w8jsproj.js
+173 silly gunzTarPerm extractEntry src/util/xml-helpers.js
+174 silly gunzTarPerm extractEntry src/util/metadata.js
+175 silly gunzTarPerm extractEntry src/platforms/amazon-fireos.js
+176 silly gunzTarPerm extractEntry src/platforms/android.js
+177 silly gunzTarPerm extractEntry src/platforms/blackberry10.js
+178 silly gunzTarPerm extractEntry src/platforms/common.js
+179 silly gunzTarPerm extractEntry src/platforms/firefoxos.js
+180 silly gunzTarPerm extractEntry src/platforms/ios.js
+181 silly gunzTarPerm extractEntry src/platforms/ubuntu.js
+182 silly gunzTarPerm extractEntry src/platforms/windows8.js
+183 silly gunzTarPerm extractEntry src/platforms/wp7.js
+184 silly gunzTarPerm extractEntry src/platforms/wp8.js
+185 silly lockFile 42ee3230-Calli-npm-plugman-0-19-0-package tar:///Users/Calli/.npm/plugman/0.19.0/package
+186 silly lockFile 42ee3230-Calli-npm-plugman-0-19-0-package tar:///Users/Calli/.npm/plugman/0.19.0/package
+187 silly lockFile 74d2542a-i-npm-plugman-0-19-0-package-tgz tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz
+188 silly lockFile 74d2542a-i-npm-plugman-0-19-0-package-tgz tar:///Users/Calli/.npm/plugman/0.19.0/package.tgz
+189 verbose chmod /Users/Calli/.npm/plugman/0.19.0/package.tgz 644
+190 verbose chown /Users/Calli/.npm/plugman/0.19.0/package.tgz [ 501, 20 ]
+191 silly lockFile e1004690-s-org-plugman-plugman-0-19-0-tgz https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz
+192 silly lockFile e1004690-s-org-plugman-plugman-0-19-0-tgz https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz
+193 silly lockFile 9ef7a65e-plugman-0-19-0 plugman@0.19.0
+194 silly lockFile 9ef7a65e-plugman-0-19-0 plugman@0.19.0
+195 info outdated updating [ [ '/usr/local/lib/node_modules/phonegap/node_modules/cordova',
+195 info outdated     'plugman',
+195 info outdated     '0.20.2',
+195 info outdated     '0.20.2',
+195 info outdated     '0.21.0',
+195 info outdated     '0.20.2' ],
+195 info outdated   [ '/usr/local/lib/node_modules/cordova',
+195 info outdated     'plugman',
+195 info outdated     '0.19.0',
+195 info outdated     '0.19.0',
+195 info outdated     '0.21.0',
+195 info outdated     '0.19.0' ] ]
+196 verbose install where,what [ '/usr/local/lib/node_modules/phonegap/node_modules/cordova',
+196 verbose install   [ 'plugman@0.20.2' ] ]
+197 verbose install where,what [ '/usr/local/lib/node_modules/cordova', [ 'plugman@0.19.0' ] ]
+198 verbose readDependencies using package.json deps
+199 verbose cache add [ 'plugman@0.20.2', null ]
+200 verbose cache add name=undefined spec="plugman@0.20.2" args=["plugman@0.20.2",null]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: 'plugman@0.20.2',
+201 verbose parsed url   path: 'plugman@0.20.2',
+201 verbose parsed url   href: 'plugman@0.20.2' }
+202 verbose cache add name="plugman" spec="0.20.2" args=["plugman","0.20.2"]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: '0.20.2',
+203 verbose parsed url   path: '0.20.2',
+203 verbose parsed url   href: '0.20.2' }
+204 verbose addNamed [ 'plugman', '0.20.2' ]
+205 verbose addNamed [ '0.20.2', '0.20.2' ]
+206 silly lockFile ebfceccf-plugman-0-20-2 plugman@0.20.2
+207 verbose lock plugman@0.20.2 /Users/Calli/.npm/ebfceccf-plugman-0-20-2.lock
+208 verbose readDependencies using package.json deps
+209 verbose cache add [ 'plugman@0.19.0', null ]
+210 verbose cache add name=undefined spec="plugman@0.19.0" args=["plugman@0.19.0",null]
+211 verbose parsed url { protocol: null,
+211 verbose parsed url   slashes: null,
+211 verbose parsed url   auth: null,
+211 verbose parsed url   host: null,
+211 verbose parsed url   port: null,
+211 verbose parsed url   hostname: null,
+211 verbose parsed url   hash: null,
+211 verbose parsed url   search: null,
+211 verbose parsed url   query: null,
+211 verbose parsed url   pathname: 'plugman@0.19.0',
+211 verbose parsed url   path: 'plugman@0.19.0',
+211 verbose parsed url   href: 'plugman@0.19.0' }
+212 verbose cache add name="plugman" spec="0.19.0" args=["plugman","0.19.0"]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: '0.19.0',
+213 verbose parsed url   path: '0.19.0',
+213 verbose parsed url   href: '0.19.0' }
+214 verbose addNamed [ 'plugman', '0.19.0' ]
+215 verbose addNamed [ '0.19.0', '0.19.0' ]
+216 silly lockFile 9ef7a65e-plugman-0-19-0 plugman@0.19.0
+217 verbose lock plugman@0.19.0 /Users/Calli/.npm/9ef7a65e-plugman-0-19-0.lock
+218 verbose registry.get plugman/0.20.2 not expired, no request
+219 silly lockFile ebfceccf-plugman-0-20-2 plugman@0.20.2
+220 silly lockFile ebfceccf-plugman-0-20-2 plugman@0.20.2
+221 silly resolved [ { author: { name: 'Andrew Lunny', email: 'alunny@gmail.com' },
+221 silly resolved     name: 'plugman',
+221 silly resolved     description: 'install/uninstall Cordova plugins',
+221 silly resolved     version: '0.20.2',
+221 silly resolved     repository:
+221 silly resolved      { type: 'git',
+221 silly resolved        url: 'git://git-wip-us.apache.org/repos/asf/cordova-plugman.git' },
+221 silly resolved     bugs:
+221 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+221 silly resolved        email: 'dev@cordova.apache.org' },
+221 silly resolved     main: 'plugman.js',
+221 silly resolved     engines: { node: '>=0.9.9' },
+221 silly resolved     engineStrict: true,
+221 silly resolved     dependencies:
+221 silly resolved      { nopt: '1.0.x',
+221 silly resolved        glob: '3.2.x',
+221 silly resolved        elementtree: '0.1.5',
+221 silly resolved        xcode: '0.6.6',
+221 silly resolved        'plist-with-patches': '0.5.x',
+221 silly resolved        'bplist-parser': '0.0.x',
+221 silly resolved        shelljs: '0.1.x',
+221 silly resolved        underscore: '1.4.4',
+221 silly resolved        'dep-graph': '1.1.0',
+221 silly resolved        semver: '2.0.x',
+221 silly resolved        q: '~0.9',
+221 silly resolved        npm: '1.3.4',
+221 silly resolved        rc: '0.3.0',
+221 silly resolved        tar: '0.1.x',
+221 silly resolved        request: '2.22.0' },
+221 silly resolved     devDependencies: { 'jasmine-node': '1.7.0', osenv: '0.0.x' },
+221 silly resolved     bin: { plugman: './main.js' },
+221 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+221 silly resolved     contributors:
+221 silly resolved      [ [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object],
+221 silly resolved        [Object] ],
+221 silly resolved     readme: '# plugman\n\nA command line tool to install and uninstall plugins for use with [Apache Cordova](http://cordova.io) projects.\n\nThis document defines tool usage.\n\n## Requirements\n\nYou must have `git` on your PATH to be able to install plugins directly from remote git URLs.\n\n## Plugin Specification\n\n--&gt; [Available on docs.cordova.io](http://cordova.apache.org/docs/en/3.0.0/plugin_ref_spec.md) &lt;--\n\n## Quickstart\n\n    npm install -g plugman\n\n## Design Goals\n\n* Facilitate programmatic installation and manipulation of plugins\n* Detail the dependencies and components of individual plugins\n* Allow code reuse between different target platforms\n\n## Supported Platforms\n\n* iOS\n* Amazon Fire OS\n* Android\n* BlackBerry 10\n* Windows Phone (7+8)\n* Windows 8\n\n## Command Line Usage\n    plugman help\n\n* Displays all available plugman commands\n\n\n    plugman install --platform <ios|amazon-fireos|android|blackberry10|wp7|wp8> --project <directory> --plugin <name|url|path> [--plugins_dir <directory>] [--www <directory>] [--variable <name>=<value> [--variable <name>=<value> ...]]\n    plugman uninstall --platform <ios|amazon-fireos|android|blackberr10|wp7|wp8> --project <directory> --plugin <id> [--www <directory>] [--plugins_dir <directory>]\n\n* Using minimum parameters, installs a plugin into a cordova project. You must specify a platform and cordova project location for that platform. You also must specify a plugin, with the different `--plugin` parameter forms being:\n  * `name`: The directory name where the plugin contents exist. This must be an existing directory under the `--plugins_dir` path (see below for more info) or a plugin in the Cordova registry.\n  * `url`: A URL starting with https:// or git://, pointing to a valid git repository that is clonable and contains a `plugin.xml` file. The contents of this repository would be copied into the `--plugins_dir`.\n  * `path`: A path to a directory containing a valid plugin which includes a `plugin.xml` file. This path\'s contents will be copied into the `--plugins_dir`.\n* `--uninstall`: Uninstalls an already-`--install`\'ed plugin from a cordova project. Specify the plugin ID.\n\nOther parameters:\n\n* `--plugins_dir` defaults to `<project>/cordova/plugins`, but can be any directory containing a subdirectory for each fetched plugin.\n* `--www` defaults to the project\'s `www` folder location, but can be any directory that is to be used as cordova project application web assets.\n* `--variable` allows to specify certain variables at install time, necessary for certain plugins requiring API keys or other custom, user-defined parameters. Please see the [plugin specification](plugin_spec.md) for more information.\n\n\n    plugman search <plugin keywords>\n\n* Search the [Plugin registry](http://plugins.cordova.io) for plugin id\'s that match the given space separated list of keywords.\n\n\n    plugman config set registry <url-to-registry>\n    plugman config get registry\n\n* Get or set the URL of the current plugin registry that plugman is using. Generally you should leave this set at http://registry.cordova.io unless you want to use a third party plugin registry.\n\n## Node Module Usage\nThis section details how to consume Plugman as a node module and is only for Cordova tool authors and other hackers. You should not need to read this section if you are just using Plugman to manage a Cordova project.\n\n    node\n    > require(\'plugman\')\n    { install: [Function: installPlugin],\n      uninstall: [Function: uninstallPlugin],\n      fetch: [Function: fetchPlugin],\n      search: [Function: search],\n      publish: [Function: publish],\n      unpublish: [Function: unpublish],\n      adduser: [Function: adduser],\n      prepare: [Function: handlePrepare],\n      create: [Function: create],\n      platform: [Function: platform] }\n\n### `install` method\n\n    module.exports = function installPlugin(platform, project_dir, id, plugins_dir, subdir, cli_variables, www_dir, callback) {\n\nInstalls a plugin into a specified cordova project of a specified platform.\n\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, `wp7` or `wp8`\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `id`: a string representing the `id` of the plugin, a path to a cordova plugin with a valid `plugin.xml` file, or an `https://` or `git://` url to a git repository of a valid cordova plugin or a plugin published to the Cordova registry\n * `plugins_dir`: path to directory where plugins will be stored, defaults to `<project_dir>/cordova/plugins`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `cli_variables`: an object mapping cordova plugin specification variable namess (see [plugin specification](plugin_spec.md)) to values\n * `www_dir`: path to directory where web assets are to be copied to, defaults to the specified project directory\'s `www` dir (dependent on platform)\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `uninstall` method\n\n    module.exports = function uninstallPlugin(platform, project_dir, id, plugins_dir, cli_variables, www_dir, callback) {\n\nUninstalls a previously-installed cordova plugin from a specified cordova project of a specified platform.\n\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, `wp7` or `wp8`\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `id`: a string representing the `id` of the plugin\n * `plugins_dir`: path to directory where plugins are stored, defaults to `<project_dir>/cordova/plugins`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `cli_variables`: an object mapping cordova plugin specification variable namess (see [plugin specification](plugin_spec.md)) to values\n * `www_dir`: path to directory where web assets are to be copied to, defaults to the specified project directory\'s `www` dir (dependent on platform)\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `fetch` method\n\nCopies a cordova plugin into a single location that plugman uses to track which plugins are installed into a project.\n\n    module.exports = function fetchPlugin(plugin_dir, plugins_dir, link, subdir, git_ref, callback) {\n\n * `plugin_dir`: path, URL to a plugin directory/repository or name of a plugin published to the Cordova registry.\n * `plugins_dir`: path housing all plugins used in this project\n * `link`: if `plugin_dir` points to a local path, will create a symbolic link to that folder instead of copying into `plugins_dir`, defaults to `false`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `gitref`: if `plugin_dir` points to a URL, this value will be used to pass into `git checkout` after the repository is cloned, defaults to `HEAD`\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `prepare` method\n\nFinalizes plugin installation by making configuration file changes and setting up a JavaScript loader for js-module support.\n\n    module.exports = function handlePrepare(project_dir, platform, plugins_dir) {\n\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, `wp7` or `wp8`\n * `plugins_dir`: path housing all plugins used in this project\n\n## Registry related actions\n\n### `adduser` method\n\nAdds a user account to the registry. Function takes no arguments other than a an optional callback\n\n    module.exports = function(callback) {\n\n### `publish` method\n\nPublishes plugins to the registry. `plugin_paths` is an array of plugin paths to publish to the reigstry.\n\n    module.exports = function(plugin_paths, callback) {\n\n### `unpublish` method\n\nunpublishes plugins from the registry. Can unpublish a version by specifying `plugin@version` or the whole plugin by just specifying `plugin`. `plugins` is an array of `plugin[@version]` elements.\n\n    module.exports = function(plugins, callback) {\n\n### `search` method\n\nSearches plugins in the registry. `search_opts` is an array of keywords\n\n    module.exports = function(search_opts, callback) {\n\n### `config` method\n\nConfigures registry settings. `params` is an array that describes the action\n    /*\n    * var params = [\'get\', \'registry\'];\n    * var params = [\'set\', \'registry\', \'http://registry.cordova.io\'];\n    * module.exports = function(params, callback) {\n    */\n\n## Create plugin related actions\n\n### `create` method\n\nCreates basic scaffolding for a new plugin\n\n  module.exports = function create( name, id, version, pluginPath, options, callback ) {...}\n\n* `name` : a name for the plugin\n* `id` : an id for the plugin\n* `version` : a version for the plugin\n* `pluginPath` : a path to create the plugin in\n* `options` : an array of options\n* `callback` : callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `platform` method\n\nAdd/Remove a platform from a newly created plugin\n\n  module.exports = function platform( { operation: operation, platform_name: cli_opts.platform_name } );\n\n* `operation` : "add or remove"\n* `platform_name` : ios, android\n\n## Example Plugins\n\n- Google has a [bunch of plugins](https://github.com/MobileChromeApps/chrome-cordova/tree/master/plugins) which are maintained actively by a contributor to plugman\n- Adobe maintains plugins for its Build cloud service, which are open sourced and [available on GitHub](https://github.com/phonegap-build)\n- BlackBerry has a [bunch of plugins](https://github.com/blackberry/cordova-blackberry/tree/master/blackberry10/plugins) offering deep platform integration\n- Core and 3rd party plugins can be found on the [Cordova Registry](http://plugins.cordova.io).\n\n## Development\n\nBasic installation:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install -g\n\nLinking the global executable to the git repo:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install\n    sudo npm link\n\n### Running Tests\n\n    npm test\n\n## Plugin Directory Structure\n\nA plugin is typically a combination of some web/www code, and some native code.\nHowever, plugins may have only one of these things - a plugin could be a single\nJavaScript file, or some native code with no corresponding JavaScript.\n\nHere is a sample plugin named foo with android and ios platforms support, and 2 www assets.\n\n```\nfoo-plugin/\n|- plugin.xml     # xml-based manifest\n|- src/           # native source for each platform\n|  |- android/\n|  |  `- Foo.java\n|  `- ios/\n|     |- CDVFoo.h\n|     `- CDVFoo.m\n|- README.md\n`- www/\n   |- foo.js\n   `- foo.png\n```\n\nThis structure is suggested, but not required.\n\n## Contributors\n\nSee the [package.json](package.json) file for attribution notes.\n\n## License\n\nApache License 2.0\n',
+221 silly resolved     readmeFilename: 'README.md',
+221 silly resolved     _id: 'plugman@0.20.2',
+221 silly resolved     _from: 'plugman@0.20.2' } ]
+222 info install plugman@0.20.2 into /usr/local/lib/node_modules/phonegap/node_modules/cordova
+223 info installOne plugman@0.20.2
+224 verbose registry.get plugman/0.19.0 not expired, no request
+225 info /usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/plugman unbuild
+226 info preuninstall plugman@0.20.2
+227 silly lockFile 9ef7a65e-plugman-0-19-0 plugman@0.19.0
+228 silly lockFile 9ef7a65e-plugman-0-19-0 plugman@0.19.0
+229 silly resolved [ { author: { name: 'Andrew Lunny', email: 'alunny@gmail.com' },
+229 silly resolved     name: 'plugman',
+229 silly resolved     description: 'install/uninstall Cordova plugins',
+229 silly resolved     version: '0.19.0',
+229 silly resolved     repository:
+229 silly resolved      { type: 'git',
+229 silly resolved        url: 'git://git-wip-us.apache.org/repos/asf/cordova-plugman.git' },
+229 silly resolved     bugs:
+229 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+229 silly resolved        email: 'dev@cordova.apache.org' },
+229 silly resolved     main: 'plugman.js',
+229 silly resolved     engines: { node: '>=0.9.9' },
+229 silly resolved     engineStrict: true,
+229 silly resolved     dependencies:
+229 silly resolved      { nopt: '1.0.x',
+229 silly resolved        glob: '3.2.x',
+229 silly resolved        elementtree: '0.1.5',
+229 silly resolved        xcode: '0.6.6',
+229 silly resolved        'plist-with-patches': '0.5.x',
+229 silly resolved        'bplist-parser': '0.0.x',
+229 silly resolved        shelljs: '0.1.x',
+229 silly resolved        underscore: '1.4.4',
+229 silly resolved        'dep-graph': '1.1.0',
+229 silly resolved        semver: '2.0.x',
+229 silly resolved        q: '~0.9',
+229 silly resolved        npm: '1.3.4',
+229 silly resolved        rc: '0.3.0',
+229 silly resolved        'tar.gz': '0.1.1' },
+229 silly resolved     devDependencies: { 'jasmine-node': '1.7.0', osenv: '0.0.x' },
+229 silly resolved     bin: { plugman: './main.js' },
+229 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+229 silly resolved     contributors:
+229 silly resolved      [ [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object],
+229 silly resolved        [Object] ],
+229 silly resolved     readme: '# plugman\n\nA command line tool to install and uninstall plugins for use with [Apache Cordova](http://cordova.io) projects.\n\nThis document defines tool usage.\n\n## Requirements\n\nYou must have `git` on your PATH to be able to install plugins directly from remote git URLs.\n\n## Plugin Specification\n\n--&gt; [Available on docs.cordova.io](http://cordova.apache.org/docs/en/3.0.0/plugin_ref_spec.md) &lt;--\n\n## Quickstart\n\n    npm install -g plugman\n\n## Design Goals\n\n* Facilitate programmatic installation and manipulation of plugins\n* Detail the dependencies and components of individual plugins\n* Allow code reuse between different target platforms\n\n## Supported Platforms\n\n* iOS\n* Amazon Fire OS\n* Android\n* BlackBerry 10\n* Windows Phone (7+8)\n\n## Command Line Usage\n    plugman help\n\n* Displays all available plugman commands\n\n\n    plugman install --platform <ios|amazon-fireos|android|blackberry10|wp7|wp8> --project <directory> --plugin <name|url|path> [--plugins_dir <directory>] [--www <directory>] [--variable <name>=<value> [--variable <name>=<value> ...]]\n    plugman uninstall --platform <ios|amazon-fireos|android|blackberr10|wp7|wp8> --project <directory> --plugin <id> [--www <directory>] [--plugins_dir <directory>]\n\n* Using minimum parameters, installs a plugin into a cordova project. You must specify a platform and cordova project location for that platform. You also must specify a plugin, with the different `--plugin` parameter forms being:\n  * `name`: The directory name where the plugin contents exist. This must be an existing directory under the `--plugins_dir` path (see below for more info) or a plugin in the Cordova registry.\n  * `url`: A URL starting with https:// or git://, pointing to a valid git repository that is clonable and contains a `plugin.xml` file. The contents of this repository would be copied into the `--plugins_dir`.\n  * `path`: A path to a directory containing a valid plugin which includes a `plugin.xml` file. This path\'s contents will be copied into the `--plugins_dir`.\n* `--uninstall`: Uninstalls an already-`--install`\'ed plugin from a cordova project. Specify the plugin ID.\n\nOther parameters:\n\n* `--plugins_dir` defaults to `<project>/cordova/plugins`, but can be any directory containing a subdirectory for each fetched plugin.\n* `--www` defaults to the project\'s `www` folder location, but can be any directory that is to be used as cordova project application web assets.\n* `--variable` allows to specify certain variables at install time, necessary for certain plugins requiring API keys or other custom, user-defined parameters. Please see the [plugin specification](plugin_spec.md) for more information.\n\n\n    plugman search <plugin keywords>\n\n* Search the [Plugin registry](http://plugins.cordova.io) for plugin id\'s that match the given space separated list of keywords.\n\n\n    plugman config set registry <url-to-registry>\n    plugman config get registry\n\n* Get or set the URL of the current plugin registry that plugman is using. Generally you should leave this set at http://registry.cordova.io unless you want to use a third party plugin registry.\n\n## Node Module Usage\nThis section details how to consume Plugman as a node module and is only for Cordova tool authors and other hackers. You should not need to read this section if you are just using Plugman to manage a Cordova project.\n\n    node\n    > require(\'plugman\')\n    { install: [Function: installPlugin],\n      uninstall: [Function: uninstallPlugin],\n      fetch: [Function: fetchPlugin],\n      search: [Function: search],\n      publish: [Function: publish],\n      unpublish: [Function: unpublish],\n      adduser: [Function: adduser],\n      prepare: [Function: handlePrepare] }\n\n### `install` method\n\n    module.exports = function installPlugin(platform, project_dir, id, plugins_dir, subdir, cli_variables, www_dir, callback) {\n\nInstalls a plugin into a specified cordova project of a specified platform.\n\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, `wp7` or `wp8`\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `id`: a string representing the `id` of the plugin, a path to a cordova plugin with a valid `plugin.xml` file, or an `https://` or `git://` url to a git repository of a valid cordova plugin or a plugin published to the Cordova registry\n * `plugins_dir`: path to directory where plugins will be stored, defaults to `<project_dir>/cordova/plugins`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `cli_variables`: an object mapping cordova plugin specification variable namess (see [plugin specification](plugin_spec.md)) to values\n * `www_dir`: path to directory where web assets are to be copied to, defaults to the specified project directory\'s `www` dir (dependent on platform)\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `uninstall` method\n\n    module.exports = function uninstallPlugin(platform, project_dir, id, plugins_dir, cli_variables, www_dir, callback) {\n\nUninstalls a previously-installed cordova plugin from a specified cordova project of a specified platform.\n\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, `wp7` or `wp8`\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `id`: a string representing the `id` of the plugin\n * `plugins_dir`: path to directory where plugins are stored, defaults to `<project_dir>/cordova/plugins`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `cli_variables`: an object mapping cordova plugin specification variable namess (see [plugin specification](plugin_spec.md)) to values\n * `www_dir`: path to directory where web assets are to be copied to, defaults to the specified project directory\'s `www` dir (dependent on platform)\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `fetch` method\n\nCopies a cordova plugin into a single location that plugman uses to track which plugins are installed into a project.\n\n    module.exports = function fetchPlugin(plugin_dir, plugins_dir, link, subdir, git_ref, callback) {\n\n * `plugin_dir`: path, URL to a plugin directory/repository or name of a plugin published to the Cordova registry.\n * `plugins_dir`: path housing all plugins used in this project\n * `link`: if `plugin_dir` points to a local path, will create a symbolic link to that folder instead of copying into `plugins_dir`, defaults to `false`\n * `subdir`: subdirectory within the plugin directory to consider as plugin directory root, defaults to `.`\n * `gitref`: if `plugin_dir` points to a URL, this value will be used to pass into `git checkout` after the repository is cloned, defaults to `HEAD`\n * `callback`: callback to invoke once complete. If specified, will pass in an error object as a first parameter if the action failed. If not and an error occurs, `plugman` will throw the error\n\n### `prepare` method\n\nFinalizes plugin installation by making configuration file changes and setting up a JavaScript loader for js-module support.\n\n    module.exports = function handlePrepare(project_dir, platform, plugins_dir) {\n\n * `project_dir`: path to an instance of the above specified platform\'s cordova project\n * `platform`: one of `amazon-fireos`, `android`, `ios`, `blackberry10`, `wp7` or `wp8`\n * `plugins_dir`: path housing all plugins used in this project\n\n## Registry related actions\n\n### `adduser` method\n\nAdds a user account to the registry. Function takes no arguments other than a an optional callback\n\n    module.exports = function(callback) {\n\n### `publish` method\n\nPublishes plugins to the registry. `plugin_paths` is an array of plugin paths to publish to the reigstry.\n\n    module.exports = function(plugin_paths, callback) {\n\n### `unpublish` method\n\nunpublishes plugins from the registry. Can unpublish a version by specifying `plugin@version` or the whole plugin by just specifying `plugin`. `plugins` is an array of `plugin[@version]` elements.\n\n    module.exports = function(plugins, callback) {\n\n### `search` method\n\nSearches plugins in the registry. `search_opts` is an array of keywords\n\n    module.exports = function(search_opts, callback) {\n\n### `config` method\n\nConfigures registry settings. `params` is an array that describes the action\n    /*\n    * var params = [\'get\', \'registry\'];\n    * var params = [\'set\', \'registry\', \'http://registry.cordova.io\'];\n    * module.exports = function(params, callback) {\n    */\n\n## Example Plugins\n\n- Google has a [bunch of plugins](https://github.com/MobileChromeApps/chrome-cordova/tree/master/plugins) which are maintained actively by a contributor to plugman\n- Adobe maintains plugins for its Build cloud service, which are open sourced and [available on GitHub](https://github.com/phonegap-build)\n- BlackBerry has a [bunch of plugins](https://github.com/blackberry/cordova-blackberry/tree/master/blackberry10/plugins) offering deep platform integration\n- Core and 3rd party plugins can be found on the [Cordova Registry](http://plugins.cordova.io).\n\n## Development\n\nBasic installation:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install -g\n\nLinking the global executable to the git repo:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install\n    sudo npm link\n\n### Running Tests\n\n    npm test\n\n## Plugin Directory Structure\n\nA plugin is typically a combination of some web/www code, and some native code.\nHowever, plugins may have only one of these things - a plugin could be a single\nJavaScript file, or some native code with no corresponding JavaScript.\n\nHere is a sample plugin named foo with android and ios platforms support, and 2 www assets.\n\n```\nfoo-plugin/\n|- plugin.xml     # xml-based manifest\n|- src/           # native source for each platform\n|  |- android/\n|  |  `- Foo.java\n|  `- ios/\n|     |- CDVFoo.h\n|     `- CDVFoo.m\n|- README.md\n`- www/\n   |- foo.js\n   `- foo.png\n```\n\nThis structure is suggested, but not required.\n\n## Contributors\n\nSee the [package.json](package.json) file for attribution notes.\n\n## License\n\nApache License 2.0\n',
+229 silly resolved     readmeFilename: 'README.md',
+229 silly resolved     _id: 'plugman@0.19.0',
+229 silly resolved     dist: { shasum: '8215786922a38eb43ed80aa3493758e840dc9d33' },
+229 silly resolved     _from: 'plugman@0.19.0',
+229 silly resolved     _resolved: 'https://registry.npmjs.org/plugman/-/plugman-0.19.0.tgz' } ]
+230 info install plugman@0.19.0 into /usr/local/lib/node_modules/cordova
+231 info installOne plugman@0.19.0
+232 info uninstall plugman@0.20.2
+233 info /usr/local/lib/node_modules/cordova/node_modules/plugman unbuild
+234 info preuninstall plugman@0.19.0
+235 verbose false,/usr/local/lib/node_modules,/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules unbuild plugman@0.20.2
+236 verbose /usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin,[object Object] binRoot
+237 info uninstall plugman@0.19.0
+238 verbose false,/usr/local/lib/node_modules,/usr/local/lib/node_modules/cordova/node_modules unbuild plugman@0.19.0
+239 verbose /usr/local/lib/node_modules/cordova/node_modules/.bin,[object Object] binRoot
+240 info /usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/plugman unbuild
+241 info preuninstall plugman@0.20.2
+242 info /usr/local/lib/node_modules/cordova/node_modules/plugman unbuild
+243 info uninstall plugman@0.20.2
+244 verbose false,/usr/local/lib/node_modules,/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules unbuild plugman@0.20.2
+245 verbose /usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin,[object Object] binRoot
+246 info preuninstall plugman@0.19.0
+247 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman'
+247 error error rolling back  plugman@0.20.2 { [Error: EACCES, unlink '/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman']
+247 error error rolling back   errno: 3,
+247 error error rolling back   code: 'EACCES',
+247 error error rolling back   path: '/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman' }
+248 error Error: EACCES, unlink '/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman'
+248 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman']
+248 error   errno: 3,
+248 error   code: 'EACCES',
+248 error   path: '/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman' }
+249 error Please try running this command again as root/Administrator.
+250 error System Darwin 12.5.0
+251 error command "node" "/usr/local/bin/npm" "update" "-g" "plugman"
+252 error cwd /Users/Calli/Documents/TEACHING/ITP/hello
+253 error node -v v0.10.25
+254 error npm -v 1.3.24
+255 error path /usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman
+256 error code EACCES
+257 error errno 3
+258 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/phonegap/node_modules/cordova/node_modules/.bin/plugman'
+259 verbose exit [ 3, true ]
